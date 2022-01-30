@@ -1,0 +1,111 @@
+/*
+
+CSS - HOLYTRIVIA BY HOLYVERSES.XYZ 
+Do you know your bible ? Let's find out with this trivia.
+
+*/
+
+body{
+    font-family: Arial,Sans-Serif,Helvetica;
+    background-color: AliceBlue;
+    color:black;
+}
+
+/* MAIN */
+
+main{
+    max-width: 576px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+    width: auto;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+header p{
+    font-size: 20px;
+}
+
+header p span{
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+header p span label{
+    display: block;
+    font-style: italic;
+}
+
+header p span a {
+    color:seagreen;
+}
+
+header p span a:hover{
+    color:yellowgreen;
+}
+
+/* SECTION */
+
+section {
+    width: auto;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section article {
+    display: none;
+}
+
+section article span{
+    display: block;
+    margin: 10px auto;
+    font-style: italic;
+}
+
+section article span label{
+    display: block;
+    font-style: italic;
+} 
+
+section article ul{
+    padding-left:0px;
+    list-style: none;
+    margin: 20px auto;
+    width: 50%;
+}
+
+section article ul li{
+    padding: 10px 5px;
+    border-radius: 10px;
+    background-color:White;
+    margin-bottom: 10px;
+}
+
+section article ul li:hover{
+    background-color:MediumAquaMarine;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    font-size: 20px;
+}
+
+footer a{
+    color:seagreen;
+}
+
+footer a:hover{
+    color:yellowgreen;
+}
+
